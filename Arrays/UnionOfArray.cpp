@@ -68,3 +68,4 @@ int n=sizeof(arr1)/sizeof(arr1[0]);
 int m=sizeof(arr2)/sizeof(arr2[0]);
     optimizedFindUnion(arr1,arr2,n,m);
 }
+
