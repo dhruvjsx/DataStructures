@@ -17,7 +17,7 @@ var nextPermutation = function (nums) {
         return nums;
     }
 
-    for (let j = nums.length -1; j < breakpoint; j--) {
+    for (let j = nums.length -1; j > breakpoint; j--) {
         if (nums[j] > nums[breakpoint]) {
             [nums[j], nums[breakpoint]] = [nums[breakpoint], nums[j]]; // swap A[i] and A[ind]
             break;
